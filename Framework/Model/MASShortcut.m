@@ -115,7 +115,34 @@ static NSString *const MASShortcutModifierFlags = @"ModifierFlags";
         case kVK_PageDown: return NSStringFromMASKeyCode(kMASShortcutGlyphPageDown);
         case kVK_Tab: return NSStringFromMASKeyCode(kMASShortcutGlyphTabRight);
         case kVK_Return: return NSStringFromMASKeyCode(kMASShortcutGlyphReturnR2L);
-            
+
+        case kVK_ANSI_A: return @"A";
+        case kVK_ANSI_B: return @"B";
+        case kVK_ANSI_C: return @"C";
+        case kVK_ANSI_D: return @"D";
+        case kVK_ANSI_E: return @"E";
+        case kVK_ANSI_F: return @"F";
+        case kVK_ANSI_G: return @"G";
+        case kVK_ANSI_H: return @"H";
+        case kVK_ANSI_I: return @"I";
+        case kVK_ANSI_J: return @"J";
+        case kVK_ANSI_K: return @"K";
+        case kVK_ANSI_L: return @"L";
+        case kVK_ANSI_M: return @"M";
+        case kVK_ANSI_N: return @"N";
+        case kVK_ANSI_O: return @"O";
+        case kVK_ANSI_P: return @"P";
+        case kVK_ANSI_Q: return @"Q";
+        case kVK_ANSI_R: return @"R";
+        case kVK_ANSI_S: return @"S";
+        case kVK_ANSI_T: return @"T";
+        case kVK_ANSI_U: return @"U";
+        case kVK_ANSI_V: return @"V";
+        case kVK_ANSI_W: return @"W";
+        case kVK_ANSI_X: return @"X";
+        case kVK_ANSI_Y: return @"Y";
+        case kVK_ANSI_Z: return @"Z";
+
         // Keypad
         case kVK_ANSI_Keypad0: return @"0";
         case kVK_ANSI_Keypad1: return @"1";
