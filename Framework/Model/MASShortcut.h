@@ -21,7 +21,7 @@
 /**
  Cocoa keyboard modifier flags.
 
- Same as in `NSEvent`: `NSCommandKeyMask`, `NSAlternateKeyMask`, etc.
+ Same as in `NSEvent`: `NSEventModifierFlagCommand`, `NSEventModifierFlagOption`, etc.
 */
 @property (nonatomic, readonly) NSEventModifierFlags modifierFlags;
 
@@ -41,7 +41,7 @@
  A string representing the “key” part of a shortcut, like the `5` in `⌘5`.
 
  @warning The value may change depending on the active keyboard layout.
- For example for the `^2` keyboard shortcut (`kVK_ANSI_2+NSControlKeyMask`
+ For example for the `^2` keyboard shortcut (`kVK_ANSI_2+NSEventModifierFlagControl`
  to be precise) the `keyCodeString` is `2` on the US keyboard, but `ě` when
  the Czech keyboard layout is active. See the spec for details.
 */
